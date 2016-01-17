@@ -1,0 +1,1 @@
+../build/tools/caffe train -solver ./vggface_solver.prototxt -gpu 0
