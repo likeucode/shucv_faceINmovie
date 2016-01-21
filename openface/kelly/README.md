@@ -1,0 +1,1 @@
+You should configure openface 0.2.0
