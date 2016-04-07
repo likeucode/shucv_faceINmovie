@@ -161,7 +161,7 @@ class MyDialog(QtGui.QDialog):
                 self.reg_X=np.append(self.reg_X,np.reshape(rep,(1,128)),axis=0)
                 
             elif self.cnt==6:
-                self.reg_id=np.append(self.reg_id,np.repeat(max(self.reg_id)+1,5))
+                self.reg_id=np.append(self.reg_id,np.repeat(max(self.reg_id[0])+1,5))
             else:
                 print("OK!")
                 draw_str(frame,(0,0),"OK")
